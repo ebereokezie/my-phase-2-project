@@ -24,5 +24,25 @@
   width: 100vw;
   height: 100vh;
   font-family: 'Archivo Black';
+  color: yellow;
   background-color: #552583;
+}
+
+.Rockets {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "helvetica";
+  background-color: #832525;
+}
+
+.Celtics {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'fantasy';
+  color: white;
+  background-color: #25833c;
 }

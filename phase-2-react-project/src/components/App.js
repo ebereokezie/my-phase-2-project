@@ -3,6 +3,8 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import Lakers from "./Lakers";
+import Celtics from "./Celtics";
+import Rockets from "./Rockets";
 
 
 function App() {
@@ -15,6 +17,12 @@ function App() {
         </Route>
         <Route path = "/lakers">
           <Lakers />
+        </Route>
+        <Route path = "/rockets">
+          <Rockets />
+        </Route>
+        <Route path = "/celtics">
+          <Celtics />
         </Route>
       </Switch>
     </div>
