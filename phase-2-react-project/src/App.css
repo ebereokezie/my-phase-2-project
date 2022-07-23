@@ -16,14 +16,13 @@
 .Navbar {
   background-color:#282c34 ;
   font-size: calc(10px + 2vmin);
-  color: white;
-
 }
 
-.Navbar:hover {
-  color: red
-}
-
-.Navbar:visited {
-  color: white
+.Lakers {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Archivo Black';
+  background-color: #552583;
 }
