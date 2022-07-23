@@ -21,6 +21,8 @@
 .Lakers {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: 'Archivo Black';
@@ -31,15 +33,20 @@
 .Rockets {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: "helvetica";
+  color: white;
   background-color: #832525;
 }
 
 .Celtics {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: 'fantasy';
