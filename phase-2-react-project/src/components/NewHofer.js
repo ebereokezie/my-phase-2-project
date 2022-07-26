@@ -18,14 +18,16 @@ function NewHofer({setHofer}){
         .then ((data) => data.json())
         .then ((data) => setHofer(oldGear => ([...oldGear, data])))
 
+
         }
 
     return(
-        <div>
+        <div className="submit-new-gear">
             <h2>Show us your Hall of Fame Gear!</h2>
             <form onSubmit = {submitNewHofer}>
                 <input type="text" name ="name" placeholder = "Team Name" onChange ={e => setName(e.target.value)} />
                 <input type="text" name ="image" placeholder = "Team Gear Picture" onChange ={e => setImage(e.target.value)} />
+                <button type="submit">Add Picture of Gear</button>
             </form>
         </div>
     )
