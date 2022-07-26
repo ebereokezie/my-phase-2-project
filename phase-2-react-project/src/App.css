@@ -53,3 +53,17 @@
   color: white;
   background-color: #25833c;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.submit-new-gear {
+  display: flex;
+  justify-content: center;
+}

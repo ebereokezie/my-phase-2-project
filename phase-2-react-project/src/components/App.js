@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Lakers from "./Lakers";
 import Celtics from "./Celtics";
 import Rockets from "./Rockets";
+import HallOfFame from "./HallOfFame";
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path = "/celtics">
           <Celtics />
+        </Route>
+        <Route path = "/halloffame">
+          <HallOfFame />
         </Route>
       </Switch>
     </div>

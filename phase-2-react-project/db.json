@@ -1,0 +1,19 @@
+{
+  "Hofers": [
+    {
+      "id": "1",
+      "name": "Lakers Gear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScSVIswvtS_W0Ca7um85jogZx6rgCmRGz9Dw&usqp=CAU"
+    },
+    {
+      "id": "2",
+      "name": "Knicks Gear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi8gA8SPnhm3FSWXzxFLxcXkKhQOYDRj4Gpw&usqp=CAU"
+    },
+    {
+      "id": "3",
+      "name": "Celtics Gear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDvsemg2uyeZyuYL2d41q1AFMEJFCdOGz8vQ&usqp=CAU"
+    }
+  ]
+}
