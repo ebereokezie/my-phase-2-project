@@ -16,6 +16,7 @@ function NavBar(){
             <NavLink to = "/lakers" exact style = {linkStyles}>Lakers</NavLink>
             <NavLink to = "/celtics" exact style = {linkStyles}>Celtics</NavLink>
             <NavLink to = "/rockets" exact style = {linkStyles}>Rockets</NavLink>
+            <NavLink to = "/halloffame" exact style = {linkStyles}>myHOF</NavLink>
         </div>
     )
 }
