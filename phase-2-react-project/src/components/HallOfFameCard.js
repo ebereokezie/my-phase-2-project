@@ -11,12 +11,6 @@ function HallOfFameCard({hofer}){
             
         </div>
 
-/* <div className="row">
-<li className="column">
-    <img src = {hofer.image} alt = {hofer.name} />
-    <h4>{hofer.name}</h4>
-</li>
-</div> */
     )
 }
 
