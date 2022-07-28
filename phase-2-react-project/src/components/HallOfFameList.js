@@ -10,13 +10,20 @@ function HallOfFameList({hofers, setHofers}){
     }, []);
 
 return (
-   <div className="row">
-        <ul className="column">
+   <div className="grid">
+        
             {hofers.map((hofer)=>{
                  return (<HallOfFameCard key = {hofer.id} hofer ={hofer} />)
                     })}
-        </ul>
     </div>
+
+/* <div className="row">
+<ul className="column">
+    {hofers.map((hofer)=>{
+         return (<HallOfFameCard key = {hofer.id} hofer ={hofer} />)
+            })}
+</ul>
+</div> */
 )
 }
 
