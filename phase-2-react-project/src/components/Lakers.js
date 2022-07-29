@@ -6,10 +6,10 @@ function Lakers(){
     return(
         <div className = "Lakers">
             <h1>{lakers.name}</h1>
-            <h3>Titles: {lakers.titles}</h3>
-            <img src = {lakers.image} alt = "Laker history"></img>
-            <h4>Laker history:</h4>
-            <p className="history">{lakers.description}</p>
+            <h2>Titles: {lakers.titles}</h2>
+            <img className = "componentimg" src = {lakers.image} alt = "Laker history"></img>
+            <h2>Laker history:</h2>
+            <p className="LakersHistory">{lakers.description}</p>
             
             
         </div>
