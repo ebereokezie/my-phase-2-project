@@ -7,9 +7,9 @@ function Rockets(){
     return(
         <div className = "Rockets">
             <h1>{rockets.name}</h1>
-            <h3>Titles: {rockets.titles}</h3>
-            <img src = {rockets.image} alt = "Rocket history"></img>
-            <h4>Rockets history:</h4>
+            <h2>Titles: {rockets.titles}</h2>
+            <img className = "componentimg" src = {rockets.image} alt = "Rocket history"></img>
+            <h2>Rockets history:</h2>
             <p className="history">{rockets.description}</p>
             
             

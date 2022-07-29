@@ -30,7 +30,7 @@
   background-color: #552583;
 }
 
-.LakersHistory {
+.history {
     width: 600px;
     padding: 25px;
     font-size:  20px;
@@ -41,7 +41,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 98.9vw;
   height: 100vh;
   font-family: "helvetica";
   color: white;
@@ -53,8 +53,8 @@
   justify-content: top center;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 98.9vw;
+  height: 104vh;
   font-family: 'fantasy';
   color: white;
   background-color: #25833c;
@@ -77,13 +77,11 @@
   object-fit: cover;
   border: 5px solid #555
 }
-.history {
-  text-align: center;
-  
-}
 
 .componentimg {
   width: 600px;
   height: 600px;
   object-fit: cover;
 }
+
+

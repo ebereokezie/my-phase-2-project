@@ -9,7 +9,7 @@ function Lakers(){
             <h2>Titles: {lakers.titles}</h2>
             <img className = "componentimg" src = {lakers.image} alt = "Laker history"></img>
             <h2>Laker history:</h2>
-            <p className="LakersHistory">{lakers.description}</p>
+            <p className="history">{lakers.description}</p>
             
             
         </div>

@@ -10,12 +10,15 @@ function HallOfFameList({hofers, setHofers}){
     }, []);
 
 return (
+
+<div className="NewHOFerBackground"> 
    <div className="grid">
         
             {hofers.map((hofer)=>{
                  return (<HallOfFameCard key = {hofer.id} hofer ={hofer} />)
                     })}
     </div>
+</div>
 )
 }
 
