@@ -23,7 +23,7 @@ function NewHofer({setHofer}){
 
     return(
         <div className="Home">
-            <h2>Show us your Hall of Fame Gear!</h2>
+            <h2>𝘚𝘩𝘰𝘸 𝘶𝘴 𝘺𝘰𝘶𝘳 𝘏𝘢𝘭𝘭 𝘖𝘧 𝘍𝘢𝘮𝘦 𝘎𝘦𝘢𝘳</h2>
             <form onSubmit = {submitNewHofer} className="submit-new-gear">
                 <input type="text" name ="name" placeholder = "Team Name" onChange ={e => setName(e.target.value)} />
                 <input type="text" name ="image" placeholder = "Team Gear Picture" onChange ={e => setImage(e.target.value)} />
