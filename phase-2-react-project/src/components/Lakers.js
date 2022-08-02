@@ -6,7 +6,7 @@ function Lakers(){
     return(
         <div className = "Lakers">
             <h1>{lakers.name}</h1>
-            <h2>𝙏𝙞𝙩𝙡𝙚𝙨: {lakers.titles} 🏆</h2>
+            <h2>🅣🅘🅣🅛🅔🅢: {lakers.titles} 🏆</h2>
             <img className = "componentimg" src = {lakers.image} alt = "Laker history"></img>
             <h2>🅛🅐🅚🅔🅡🅢 </h2>
             <p className="history">{lakers.description}</p>
