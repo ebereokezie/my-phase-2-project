@@ -14,6 +14,11 @@
       "id": "3",
       "name": "Celtics Gear",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDvsemg2uyeZyuYL2d41q1AFMEJFCdOGz8vQ&usqp=CAU"
+    },
+    {
+      "name": "Mavericks Gear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnhjxp-PIEgMTfcAsJMPpFsHhvbh6_eaRFaBRvuW9di6npIw241QyUxsYKj6kBw1gWtw&usqp=CAU",
+      "id": "s_EgxbZ"
     }
   ]
 }
